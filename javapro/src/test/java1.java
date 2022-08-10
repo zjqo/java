@@ -1,14 +1,5 @@
 package test;
-
-public class java1 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		stuts zs = new stuts("李四",19,'男');
-		System.out.print(zs.name);
-	}
-
-}
+import java.util.Random;//随机数
 class stuts{
 	String name;
 	int age;
@@ -17,5 +8,16 @@ class stuts{
 		this.name = name;
 		this.age = age;
 		this.sex = sex;
+	}
+	void cs(String name,int age,char sex) {
+		this.name = name;
+		this.age = age;
+		this.sex = sex;
+	}
+	void xx() {
+		System.out.print(name+"你好\n");
+	}
+	stuts(){
+		
 	}
 }
