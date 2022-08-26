@@ -1,22 +1,25 @@
 package xiangmu1;
+
+import javax.swing.*;
+
 /** 炸弹 */
-public class Bomb {
-    int width;
-    int height;
-    int x;
-    int y;
-    int speed;
+public class Bomb extends seaObject{
     /** 构造方法 */
-    Bomb(int x,int y){
-    	width = 9;
-    	height = 12;
-    	this.x = x;
-    	this.y = y;
-    	speed = 3;
+	public Bomb(int x,int y){
+    	super(9,12,x,y,3);
+    }
+	public void move(){
+    	y+=speed;//y+表示向上
+        //System.out.println("炸弹y向下移动");
     }
 
-    void move(){
-        System.out.println("炸弹y向下移动");
+    @Override
+    public ImageIcon gitImage() {
+        return Imaes.bomb;
+    }
+    public String name(){
+        String name = "炸弹";
+        return name;
     }
 }
 

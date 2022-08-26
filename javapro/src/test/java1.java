@@ -21,3 +21,12 @@ class stuts{
 		
 	}
 }
+abstract class init {
+	 public static int get(int x,int y) {
+	  return x>y?x:y;
+	 }
+}
+class init2 extends init{
+	void he() {
+	}
+}

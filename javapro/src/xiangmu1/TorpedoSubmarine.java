@@ -1,27 +1,33 @@
 package xiangmu1;
 
+import javax.swing.*;
 import java.util.Random;
 
 /** 鱼雷潜艇 */
-public class TorpedoSubmarine {
-    int width;
-    int height;
-    int x;
-    int y;
-    int speed;
+public class TorpedoSubmarine extends seaObject{
+
     /** 构造方法 */
-    TorpedoSubmarine(){
-    	width = 64;
-        height = 20;
-        x = -width;
-        Random rand = new Random(); //创建随机数对象
-        y = rand.nextInt(479-height-150+1)+150;
-        speed = rand.nextInt(3)+1;//+1代表从一开始
+	public TorpedoSubmarine(){
+    	super(64,20);
+    	//当超类的构造为有参的构造，需要自己调用
+    	//super();//超类（父类）构造方法只存在于子类（派生类）的构造方法中,并且超类构造必须先执行，会默认调用
     }
 
-    void move(){
-        System.out.println("鱼雷潜艇x向右移动");
+	public void move(){
+    	this.x += this.speed;//水雷向上移动
+        //System.out.println("鱼雷潜艇x向右移动");
+
     }
+
+    @Override
+    public ImageIcon gitImage() {
+        return Imaes.torp;
+    }
+    public String name(){
+	    String name = "鱼雷";
+	    return name;
+    }
+
 }
 
 
