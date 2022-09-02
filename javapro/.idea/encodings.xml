@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/Listmode1/Listdame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Listmode1/Listmedo2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/Listmode1/Point.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/apiday3/CollectionDemo2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/apiday3/InteratorDame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/apiday3/Point.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/biao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/danei/example/BrandTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/danei/mysql/demo1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/danei/mysql/demo2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day23/ObjectDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/day23/Point.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/mysqldame/sqldame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/syn/DeadLock.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/syn/TestPC.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/syn/TestTime.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/syn/Testlock.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/syn/UnsafeBack.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/syn/UnsafeBuyTicket.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test2/TestPriority.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test2/TestYield.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test3/UploadDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/xiangmu1/World.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/xiangmu1/seaObject.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/反射/ReflectDemo1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/反射/ReflectDemo2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/反射/ReflectTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/注解/Anno.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/注解/MyAnon.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/注解/ReflectTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/简单的测试/Calculator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/简单的测试/Check.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/简单的测试/TestCheck.java" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

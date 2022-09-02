@@ -1,6 +1,8 @@
 package com.danei.mysql;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * \* Created with IntelliJ IDEA.
@@ -13,17 +15,21 @@ import java.sql.*;
  */
 public class demo1 {
     public static void main(String[] args) throws Exception {
-        String url = "jdbc:mysql://127.0.0.1:3306/shool?useSSL=false";
-        String username = "root";
-        String password = "Root123!";
-        Connection conn = DriverManager.getConnection(url,username,password);
-        String sql = "select student_name,teacher from student,course where course_id = 1 && student_id in (select stu_id from cou_stu where cou_id = 1)";
-        PreparedStatement st = conn.prepareStatement(sql);
-        ResultSet rs = st.executeQuery();
-        while(rs.next()){
-            System.out.println("name:"+ rs.getString("student_name") + "老师："+ rs.getString("teacher"));
-        }
-        rs.close();
-        conn.close();
+      String url = "jdbc:mysql:///shool?useSSL=false";
+      String username = "root";
+      String password = "Root123!";
+      Connection conn = DriverManager.getConnection(url, username, password);
+      String sql = "select * from student";
+      PreparedStatement ps = conn.prepareStatement(sql);
+      ResultSet rs = ps.executeQuery();
+        List<Account> acc = new ArrayList<Account>();
+      while(rs.next()){
+         acc.add(new Account(rs.getString("student_id"),rs.getString("student_name"),rs.getInt("age"),rs.getString("sex"),rs.getString("class"),rs.getInt("fraction")));
+      }
+      System.out.println(acc.get(1).getName());
+      ps.close();
+      rs.close();
+      conn.close();
+
     }
 }
